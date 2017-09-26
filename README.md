@@ -14,6 +14,6 @@ The demo shows how to integrate DHTMLX Scheduler into an [Angular](https://angul
 
 ## Related resources
 
-- Read a full tutorial here: https://dhtmlx.com/blog/angular-2-dhtmlxscheduler-tutorial/
+- Read a full tutorial here: https://dhtmlx.com/blog/angular-dhtmlxscheduler-tutorial/
 - Learn about dhtmlxScheduler here: https://dhtmlx.com/docs/products/dhtmlxScheduler/
 - Learn about Angular here: https://angular.io/
