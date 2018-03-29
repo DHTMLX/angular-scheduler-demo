@@ -1,13 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 
 import {InMemoryWebApiModule} from 'angular-in-memory-web-api';
 import {InMemoryDataService} from './services/in-memory-data.service';
 
 import { AppComponent } from './app.component';
 import { SchedulerComponent } from './components/scheduler.component';
+
 
 @NgModule({
   declarations: [
@@ -16,8 +16,7 @@ import { SchedulerComponent } from './components/scheduler.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    HttpModule,
+    HttpClientModule,
     InMemoryWebApiModule.forRoot(InMemoryDataService)
   ],
   providers: [],

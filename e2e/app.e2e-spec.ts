@@ -1,10 +1,10 @@
-import { SchedulerAngularPage } from './app.po';
+import { AppPage } from './app.po';
 
-describe('scheduler-angular App', () => {
-  let page: SchedulerAngularPage;
+describe('scheduler-angular-timeline App', () => {
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new SchedulerAngularPage();
+    page = new AppPage();
   });
 
   it('should display welcome message', () => {
