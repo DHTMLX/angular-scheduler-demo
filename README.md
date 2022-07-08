@@ -1,19 +1,27 @@
-DHTMLX Scheduler with Angular Demo
-===================================
+# SchedulerAngular
 
-Angular wrapper for dhtmlxScheduler.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
-The demo shows how to integrate DHTMLX Scheduler into an [Angular](https://angular.io/) app. CRUD is emulated using [angular-in-memory-web-api](https://www.npmjs.com/package/angular-in-memory-web-api/).
+## Development server
 
-## How to start
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-- clone the repository or download files
-- install dependencies ``npm install ``
-- run server ``ng serve``
-- open http://localhost:4200 in browser
+## Code scaffolding
 
-## Related resources
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-- Read a full tutorial here: https://dhtmlx.com/blog/angular-dhtmlxscheduler-tutorial/
-- Learn about dhtmlxScheduler here: https://dhtmlx.com/docs/products/dhtmlxScheduler/
-- Learn about Angular here: https://angular.io/
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

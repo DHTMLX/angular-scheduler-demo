@@ -1,13 +1,12 @@
-import {Injectable} from '@angular/core';
-import {Event} from '../models/event';
-import {HttpClient} from '@angular/common/http';
-import {HandleError} from './service-helper';
+import {Injectable} from "@angular/core";
+import {Event} from "../models/event";
+import {HttpClient} from "@angular/common/http";
+import {HandleError} from "./service.helper";
 
-import 'rxjs/add/operator/toPromise';
 
 @Injectable()
 export class EventService {
-    private eventUrl = 'api/events';
+    private eventUrl = "api/events";
 
     constructor(private http: HttpClient) {}
 
