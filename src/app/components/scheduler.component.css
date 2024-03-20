@@ -1,4 +1,4 @@
-@import '~dhtmlx-scheduler/codebase/dhtmlxscheduler.css';
+@import "@dhx/trial-scheduler/codebase/dhtmlxscheduler.css";
 :host{
     display: block;
     height: 100%;
