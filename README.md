@@ -1,27 +1,32 @@
-# SchedulerAngular
+# DHTMLX Scheduler with Angular Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+[![dhtmlx.com](https://img.shields.io/badge/made%20by-DHTMLX-blue)](https://dhtmlx.com/)
 
-## Development server
+![DHTMLX Scheduler with Angular Demo](https://raw.githubusercontent.com/DHTMLX/angular-scheduler-demo/master/scheduler.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## How to start
 
-## Code scaffolding
+```
+yarn 
+yarn start
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+You can also use [GitHub Codespaces](https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository) to run online.
 
-## Build
+## Useful links
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **[Online demo](https://replit.com/@dhtmlx/dhtmlx-scheduler-with-angular)**
+- [Full tutorial](https://dhtmlx.com/blog/angular-dhtmlxscheduler-tutorial/)
+- [Video Guide](https://www.youtube.com/watch?v=5nGjIvvN_88)
+- [Learn about DHTMLX Scheduler](https://dhtmlx.com/docs/products/dhtmlxScheduler/)
+- [More demos about the DHTMLX Scheduler functionality](https://docs.dhtmlx.com/scheduler/samples)
+- [Technical support](https://forum.dhtmlx.com/c/scheduler-all)
+- [Online  documentation](https://docs.dhtmlx.com/scheduler/)
 
-## Running unit tests
+## Follow us
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Star our GitHub repo :star:
+- Watch our tutorials on [YouTube](https://www.youtube.com/user/dhtmlx/videos) :eyes:
+- Read us on [Medium](https://dhtmlx.medium.com) :newspaper:
+- Follow us on [Twitter](https://twitter.com/dhtmlx) :feet:
+- Like our page on [Facebook](https://www.facebook.com/dhtmlx/) :thumbsup:
