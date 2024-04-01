@@ -19,7 +19,6 @@
     "@angular/platform-browser-dynamic": "~16.0.0",
     "@angular/router": "~16.0.0",
     "@dhx/trial-scheduler": "^7.0.3",
-    "@types/dhtmlxscheduler": "^4.3.40",
     "angular-in-memory-web-api": "^0.16.0",
     "rxjs": "~7.5.5",
     "tslib": "^2.4.0",
