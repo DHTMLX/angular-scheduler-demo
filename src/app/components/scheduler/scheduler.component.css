@@ -1,0 +1,12 @@
+@import "@dhx/trial-scheduler/codebase/dhtmlxscheduler.css";
+:host {
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.dhx_cal_container {
+  height: 100vh;
+  width: 100%;
+}
