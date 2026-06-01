@@ -1,7 +1,0 @@
-@import "@dhx/trial-scheduler/codebase/dhtmlxscheduler.css";
-:host{
-    display: block;
-    height: 100%;
-    position: relative;
-    width: 100%;
- }

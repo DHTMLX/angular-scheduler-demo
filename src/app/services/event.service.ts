@@ -1,32 +1,39 @@
-import {Injectable} from "@angular/core";
-import {Event} from "../models/event";
-import {HttpClient} from "@angular/common/http";
-import {HandleError} from "./service.helper";
-import {firstValueFrom} from "rxjs";
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { firstValueFrom } from 'rxjs';
 
-@Injectable()
+import { SchedulerEvent } from '../models/scheduler-event';
+
+@Injectable({
+  providedIn: 'root',
+})
 export class EventService {
-    private eventUrl = "api/events";
+  private readonly eventUrl = 'api/events';
 
-    constructor(private http: HttpClient) {}
+  constructor(private readonly http: HttpClient) {}
 
-    get(): Promise<Event[]>{
-        return firstValueFrom(this.http.get(this.eventUrl))
-            .catch(HandleError);
-    }
+  get(): Promise<SchedulerEvent[]> {
+    return firstValueFrom(this.http.get<SchedulerEvent[]>(this.eventUrl))
+      .catch(this.handleError);
+  }
 
-    insert(event: Event): Promise<Event> {
-        return firstValueFrom(this.http.post(this.eventUrl, event))
-            .catch(HandleError);
-    }
+  insert(event: SchedulerEvent): Promise<SchedulerEvent> {
+    return firstValueFrom(this.http.post<SchedulerEvent>(this.eventUrl, event))
+      .catch(this.handleError);
+  }
 
-    update(event: Event): Promise<void> {
-        return firstValueFrom(this.http.put(`${this.eventUrl}/${event.id}`, event))
-            .catch(HandleError);
-    }
+  update(event: SchedulerEvent): Promise<void> {
+    return firstValueFrom(this.http.put<void>(`${this.eventUrl}/${event.id}`, event))
+      .catch(this.handleError);
+  }
 
-    remove(id: number): Promise<void> {
-        return firstValueFrom(this.http.delete(`${this.eventUrl}/${id}`))
-            .catch(HandleError);
-}
+  remove(id: number): Promise<void> {
+    return firstValueFrom(this.http.delete<void>(`${this.eventUrl}/${id}`))
+      .catch(this.handleError);
+  }
+
+  private handleError(error: unknown): Promise<never> {
+    console.error(error);
+    return Promise.reject(error);
+  }
 }
